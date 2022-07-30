@@ -1,0 +1,18 @@
+.ghe {
+  width: 50px;
+  height: 35px;
+  background: rgb(108, 108, 108);
+  margin: 0 5px 5px 0;
+  &.gheVip {
+    background: rgb(255, 140, 140);
+  }
+  &.daDat {
+    background-color: rgb(255, 50, 50);
+    // pointer-events: none;
+    cursor: no-drop;
+  }
+  
+  &.dangDat {
+    background: rgb(154, 255, 157);
+  }
+}
